@@ -1,0 +1,44 @@
+header{
+    padding: 0px;
+}
+
+main .lista-receita{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+main .cartao-receita{
+    background-color:#F9FAD2;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 7px ;   
+}
+
+main .cartao-receita .informacoes{
+    text-align: center;
+    font-weight: bold;
+}
+
+main .cartao-receita .img-ingrediente{
+    height: 100px;
+    width: center;
+}
+
+main .cartao-receita .ingredientes{
+    padding-left: 50px;
+    list-style: disc;
+    border-bottom: 1px solid;
+    padding-bottom: 5%;
+}
+
+main .cartao-receita .preparo{
+    font-size: 15px;
+}
+
