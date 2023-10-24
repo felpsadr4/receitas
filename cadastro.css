@@ -1,11 +1,25 @@
+
+
+
 header{
     margin: 0px;
     padding: 0px;
+    width: 100%;
+
 }
 
 .titulo{
     padding-top: 40px;
+    font-size: 30px;
     text-align: center;
+    font-weight: bold;
+
+}
+
+main div{
+    position: relative;
+    padding: 5px;
+
 }
 
 #botao{
